@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Linkedin from './linkler';
-import image from "./hasanpp.png";
+import image from "./hasanppp.png";
 
 
 
@@ -13,7 +13,6 @@ function PersonalWebsite() {
         <yesil className="yesil"></yesil>
         <header className='ad'>Hasan Keklik</header>
         <section className='acilis'>
-          <img width={300} height={300} src={image}/>
           <container className="acilis-sol">
             <p className='rol'>I am a Frontend Developer...</p>
             <p className='rol-aciklama'>...who likes to craft solid and scalable frontend products with great user experiences.</p>
@@ -21,9 +20,9 @@ function PersonalWebsite() {
               <a href='https://github.com/haskek' target={"_blank"} className='github-buton'>
                 <butonyazı className="github-buton-yazı">GitHub</butonyazı>
               </a>
-              <button className='linkedin-buton'>
+              <a href='https://www.linkedin.com/in/hasan-keklik-88a094109/' target={"_blank"} className='linkedin-buton'>
                 <butonyazı className="linkedin-buton-yazı">LinkedIn</butonyazı>
-              </button>
+              </a>
 
             </buttons>
 
